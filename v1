@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class HelloSomebody
+{
+    String name;
+
+    public HelloSomebody (String aName,)
+    {
+    name = aName;
+    }
+    public static void main(String[] args)
+    {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter Your name: ");
+    String input = in.next();
+    System.out.println("Hello " + input);
+    }
+}
+
+
+
+
+
+
+
